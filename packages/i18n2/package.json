@@ -1,0 +1,19 @@
+{
+  "name": "@hhhhxz/i18n2",
+  "version": "1.0.0",
+  "description": "vue2国际化",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "start": "tsc -b tsconfig.build.json --watch"
+  },
+  "keywords": [
+    "vue-i18n",
+    "i18n"
+  ],
+  "author": "hhhhxz",
+  "license": "MIT",
+  "dependencies": {
+    "@hhhhxz/i18n-shared": "workspace:1.0.0"
+  }
+}

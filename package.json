@@ -1,0 +1,39 @@
+{
+  "name": "i18n",
+  "version": "1.0.0",
+  "description": "处理Vue2和Vue3的国际化",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "tsc -b tsconfig.build.json --watch"
+  },
+  "keywords": [
+    "i18n",
+    "vue-i18n"
+  ],
+  "author": "hhhhxz",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.19",
+    "babel-jest": "^29.7.0",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "tslib": "^2.6.2"
+  }
+}

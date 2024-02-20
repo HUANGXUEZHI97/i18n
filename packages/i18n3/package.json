@@ -1,0 +1,19 @@
+{
+  "name": "@hhhhxz/i18n3",
+  "version": "1.0.0",
+  "description": "vue3国际化",
+  "main": "src/index.ts",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-i18n",
+    "i18n"
+  ],
+  "author": "hhhhxz",
+  "license": "MIT"
+}

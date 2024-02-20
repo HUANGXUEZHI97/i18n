@@ -1,0 +1,26 @@
+{
+  "name": "@huangxuezhi/i18n-shared",
+  "version": "1.0.0",
+  "description": "i18n 封装, 共享部分",
+  "module": "dist/index.js",
+  "main": "dist/common/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -b tsconfig.build.json --watch",
+    "clear": "rimraf dist",
+    "build:common": "tsc -b tsconfig.build.common.json",
+    "build:es": "tsc -b tsconfig.build.json",
+    "build": "npm run build:es && npm run build:common",
+    "check": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue-i18n",
+    "i18n"
+  ],
+  "author": "huangxuezhi",
+  "license": "MIT"
+}
